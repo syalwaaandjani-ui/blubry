@@ -1,0 +1,53 @@
+/* Reset CSS */
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+} 
+body {
+    font-family: 'arial',
+    sans-serif;
+    display: flex;
+}
+/* sidebar styles */
+.sidebar {
+    background-color: #ff7878ff;
+    color: rgb(231, 235, 187);
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.sidebar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.sidebar-link {
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+}
+.sidebar-links li {
+    width: 100%;
+}
+.sidebar-links a {
+    color: rgb(230, 224, 224);
+    text-decoration:
+    none;
+    font-size: 18px;
+    padding: 15px 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.sidebar-links a:hover {
+    background-color:#d61535;
+}
+/* content styles */
+.content {
+    padding: 20px;
+    flex-grow: 1;
+}
